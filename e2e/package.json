@@ -5,6 +5,6 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "install": "yarn --cwd vite3"
+    "install": "yarn --cwd vite5"
   }
 }
