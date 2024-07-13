@@ -42,7 +42,7 @@ export default function assemblyScriptPlugin(
     ...userOptions,
   };
 
-  const ascBinPathRoot = `${options.projectRoot}${sep}node_modules${sep}.bin${sep}asc`;
+  const ascBinPathRoot = `${resolve(options.projectRoot)}${sep}node_modules${sep}.bin${sep}asc`;
 
   if (!existsSync(options.projectRoot)) {
     throw new Error(
